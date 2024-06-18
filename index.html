@@ -125,6 +125,7 @@
         var baselayers = {
             "OSM": L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
             }),
             "Aerial Imagery": L.tileLayer(
                 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
